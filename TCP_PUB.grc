@@ -235,7 +235,7 @@
     </param>
   </block>
   <block>
-    <key>zeromq_push_sink</key>
+    <key>zeromq_pub_sink</key>
     <param>
       <key>address</key>
       <value>tcp://127.0.0.1:6666</value>
@@ -270,7 +270,7 @@
     </param>
     <param>
       <key>id</key>
-      <value>zeromq_push_sink_0</value>
+      <value>zeromq_pub_sink_0</value>
     </param>
     <param>
       <key>type</key>
@@ -297,7 +297,7 @@
   </connection>
   <connection>
     <source_block_id>blocks_throttle_0</source_block_id>
-    <sink_block_id>zeromq_push_sink_0</sink_block_id>
+    <sink_block_id>zeromq_pub_sink_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
